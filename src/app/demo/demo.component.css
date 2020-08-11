@@ -1,0 +1,195 @@
+.card{
+    width: 639px;
+    height: 377px;
+    border: 0.2px;
+    box-shadow: rgba(68, 68, 68, 0.1);
+    border-color: #444444;
+    position: relative;
+}
+.image{
+    width: 639px;
+    height: 233.2px; 
+}
+.promoted_text{
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 11px;
+    right: 31px;
+}
+.promoted{
+    width: 152px;
+    height: 33px;
+    position: absolute;
+    right: 0px;
+    top: -16.5px;
+    background-color: #68a7ff;
+}
+.rating_box{
+    width: 75px;
+    height: 53px;
+    background-color: #f5a626;
+    border-radius: 3.8px;
+    position: absolute;
+    top: 28.3px;
+    left: 549.3px;
+    color: white;
+}
+.rating{
+    width: 57px;
+    height: 35px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    font-size: 12.5px;
+}
+.c_rating{
+    font-size: x-large;
+    padding-left: 15px;
+}
+.large_pill{
+    width: 135px;
+    height: 34px;
+    border-radius: 16.5px;
+    background-color:white;
+    position: absolute;
+    top: 188.3px;
+    left: 14.3px;
+    color: #444444;
+}
+.small_pill{
+    width: 93px;
+    height: 34px;
+    border-radius: 16.5px;
+    background-color: white;
+    position: absolute;
+    top: 188.3px;
+    left: 156.3px;
+    color: #444444;
+}
+.college_rank{
+    font-size: 13.5px;
+    color: white;
+    position: absolute;
+    top: 199.3px;
+    right: 14px;
+}
+.lpill_text{
+    font-size: 12.5px;
+    position: absolute;
+    top: 10px;
+    bottom: 11px;
+    left: 17px;
+    
+}
+.spill_text{
+    font-size: 12.5px;
+    position: absolute;
+    top: 10px;
+    bottom: 11px;
+    left: 17px;
+}
+.c_name{
+    font-size: 17px;
+    color: #444444;
+    position: absolute;
+    top: 252px;
+    left: 17px;
+}
+.nearest_place1{
+    font-size: 13px;
+    position: absolute;
+    top: 280px;
+    left: 17px;
+    color: #444444;
+}
+.nearest_place2{
+    font-size: 13px;
+    position: absolute;
+    top: 280px;
+    left: 215px;
+    color: #adadad;
+}
+.famous_nearest_places{
+    font-size: 13px;
+    position: absolute;
+    top: 310px;
+    left: 17px;
+
+}
+.offer{
+    width: 347px;
+    height: 35px;
+    border-radius: 0px 17.5px 17.5px 0px;
+    background-color: #ccf5e7;
+    position: absolute;
+    top: 332px;
+}
+.offer_text{
+    font-size: 13px;
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    color: #444444;
+    text-align: center;
+}
+.fees{
+    font-size: 10px;
+    position: absolute;
+    top: 249px;
+    right: 60px;
+    text-decoration: line-through;
+}
+.discount{
+    width: 29px;
+    height: 14px;
+    background-color: #dd1c26;
+    position: absolute;
+    top: 247px;
+    right: 27px;
+}
+.discounted_fee{
+    font-size: 26px;
+    color: #dd1c26 ;
+    position: absolute;
+    top: 272px;
+    right: 27px;
+}
+.discount_amount{
+    font-size: 11px;
+    position: absolute;
+    top: 1.5px;
+    right: 3px;
+    color: white;
+}
+.fees_cycle{
+    font-size: 11px;
+    color: #444444;
+    position: absolute;
+    top: 301px;
+    right: 27px;
+}
+.amenties1{
+    font-size: 13.5px;
+    color: #37b396;
+    position: absolute;
+    top: 343px;
+    right: 105px;
+}
+.amenties2{
+    font-size: 13.5px;
+    color: #37b396;
+    position: absolute;
+    top: 343px;
+    right: 27px;
+
+}
+.dot{
+    width: 4px;
+    height: 4px;
+    background-color: #37b396;
+    position: absolute;
+    top: 349px;
+    right: 92px;
+    border-radius: 2px;
+}

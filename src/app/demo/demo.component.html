@@ -1,0 +1,41 @@
+<h3 style="color: #444444;">Colleges in North India</h3>
+<div class="row">
+  <div *ngFor="let college of collegesData">
+    <div class="card">
+        <img src="../../assets/college_02.jpg" class="image">
+      <div class="promoted" [hidden]="!college.promoted">
+        <div class="promoted_text">PROMOTED</div>
+      </div>
+      <div class="rating_box">
+        <div class="rating">
+          <span class="c_rating">{{college.rating}}</span>
+          <span>/5</span>
+          <div>{{college.rating_remarks}}</div>
+        </div>
+      </div>
+      <span class="large_pill">
+        <span class="lpill_text">{{college.tags[0]}}</span>
+      </span>
+      <span class="small_pill">
+        <span class="spill_text">{{college.tags[1]}}</span>
+      </span>
+      <span class="college_rank">#{{college.ranking}}</span>
+      <div class="c_name">{{college.college_name}}</div>
+      <span class="nearest_place1">{{college.nearest_place[0]}} |</span>
+      <span class="nearest_place2">{{college.nearest_place[1]}}</span>
+      <div class="famous_nearest_places">{{college.famous_nearest_places}}</div>
+      <div class="offer">
+        <div class="offer_text">{{college.offertext}}</div>
+      </div>
+      <span class="fees">&#8377;{{college.original_fees}}</span>
+      <span class="discount">
+        <span class="discount_amount">{{college.discount}}</span>
+      </span>
+      <div class="discounted_fee">&#8377;{{college.discounted_fees}}</div>
+      <div class="fees_cycle">{{college.fees_cycle}}</div>
+      <span class="amenties1">{{college.amenties[0]}}</span>
+      <span class="dot"></span>
+      <span class="amenties2">{{college.amenties[1]}}</span>
+    </div>
+  </div>
+</div>
